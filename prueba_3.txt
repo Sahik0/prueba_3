@@ -1,0 +1,46 @@
+datos_buscar=50
+imprimir_certificado=50
+buscar=1
+grabar=0
+
+
+while True:
+  print("1. grabar")
+  print("2. buscar")
+  print("3. imprimir certificados")
+  print("4. salir")
+  op=int(input("Seleccione una opcion: "))
+
+  opcion = input("Seleccione una opción: ")
+
+
+
+  if opcion == 1:
+        grabar(grabar)
+
+  elif opcion == 2:
+        buscar(datos_buscar)
+  elif opcion == 3:
+        imprimir_certificado()
+  elif opcion == 4:
+        print("¡Hasta luego!")
+        break
+  else:
+        print("Opción inválida. Intente nuevamente.")
+        if print(grabar):
+              tipo = input("Ingrese el tipo de auto: ")
+              patente = input("Ingrese la patente del auto: ")
+              precio = input("Ingrese el teléfono del pasajero: ")
+              multas = input("ingrese si tiene una multa (precio y fecha)")
+              fecha = input("ingrese la fecha de registro del vehiculo")
+              nombre = input("ingrese el nombre del dueño del auto")
+
+datos_buscar[grabar] = {
+          'tipo':tipo,
+          'patente': patente,
+          'precio': precio,
+          'multas': multas,
+          'fecha': fecha,
+          'nombre': nombre
+        
+}
